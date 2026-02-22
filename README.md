@@ -1,6 +1,6 @@
 # Scalable E-Commerce Personalization & Revenue Optimization Pipeline
 
-## 🚀 Project Overview
+##  Project Overview
 
 This project implements a scalable distributed recommendation system inspired by Amazon’s personalization architecture.  
 The system processes 10M+ user-product interactions and builds a production-style data pipeline using Hadoop, Hive, and Spark.
@@ -42,7 +42,7 @@ The objective is to:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 Amazon Reviews 2023 Dataset  
 Category: Beauty & Personal Care  
@@ -57,7 +57,7 @@ Fields used:
 
 ---
 
-## ⚙️ Technology Stack
+##  Technology Stack
 
 - Hadoop (HDFS)
 - Hive Metastore
@@ -68,7 +68,7 @@ Fields used:
 
 ---
 
-## 🔍 Analytical Insights
+## Analytical Insights
 
 - Identified high-value customers (2,000+ reviews per user)
 - Analyzed product popularity distribution
@@ -78,12 +78,12 @@ Fields used:
 
 ---
 
-## 🤖 Recommendation Models
+## Recommendation Models
 
-### 1️⃣ Popularity Baseline
+### 1 Popularity Baseline
 - Recommends globally most reviewed products
 
-### 2️⃣ Implicit ALS Model
+### 2 Implicit ALS Model
 - Collaborative filtering using confidence-weighted feedback
 - Sparse user-item matrix handling
 - Hash-based indexing to avoid driver memory bottlenecks
@@ -91,7 +91,7 @@ Fields used:
 
 ---
 
-## 📈 Model Evaluation
+## Model Evaluation
 
 Metric: Precision@10
 
@@ -104,7 +104,7 @@ Metric: Precision@10
 
 ---
 
-## 💰 Revenue Uplift Simulation
+## Revenue Uplift Simulation
 
 Assumptions:
 - 1,000,000 impressions
@@ -121,7 +121,7 @@ This demonstrates how ranking improvements can significantly impact business rev
 
 ---
 
-## 🧠 Engineering Challenges Solved
+##  Engineering Challenges Solved
 
 - Handled high-cardinality user indexing without StringIndexer
 - Prevented Spark driver OOM using hash-based indexing
@@ -132,3 +132,27 @@ This demonstrates how ranking improvements can significantly impact business rev
 ---
 
 
+---
+
+## Key Takeaways
+
+- Built full distributed data engineering + ML pipeline
+- Processed 10M+ interactions at scale
+- Demonstrated measurable business impact
+- Implemented production-style recommendation evaluation
+
+---
+
+## Future Improvements
+
+- Learning-to-rank model (GBT/XGBoost)
+- User/item embeddings export
+- Cold-start hybrid model
+- Real-time inference API deployment
+- Dashboard visualization layer
+
+---
+
+## Author
+
+Built as a large-scale distributed systems project to simulate real-world Amazon-style personalization architecture.
