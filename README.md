@@ -154,5 +154,5 @@ This demonstrates how ranking improvements can significantly impact business rev
 ---
 
 ## Author
-
+Dasari Ranga Eswar
 Built as a large-scale distributed systems project to simulate real-world Amazon-style personalization architecture.
